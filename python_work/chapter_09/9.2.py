@@ -13,12 +13,12 @@ class Restaurant:
         """Exibe uma mensagem indicando que o restaurante está aberto."""
         print(f"O restaurante {self.restaurant_name} está aberto!")
   
-# 4. Criando um objeto (instância) da classe
+# Criando um objeto (instância) da classe
 restaurant1 = Restaurant("Ziyad", "Arabic")
 restaurant2 = Restaurant("La Petite Brasserie", "French")
 restaurant3 = Restaurant("De la Rua", "Mexican")
 
-# 6. Chamando métodos
+# Chamando métodos
 restaurant1.describe_restaurant()
 restaurant2.describe_restaurant()
 restaurant3.describe_restaurant()
